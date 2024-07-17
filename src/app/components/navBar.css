@@ -1,0 +1,105 @@
+:root{
+    --background-start-rgb: 80, 80, 255;
+    /* light color */
+    --background-end-rgb: 200, 200, 200;
+    /* light color */
+    --background-hover-rgb: 50, 50, 100;
+}
+
+[data-theme=false] {
+    --background-start-rgb: 80, 80, 255;
+    /* light color */
+    --background-end-rgb: 200, 200, 200;
+    /* light color */
+    --background-hover-rgb: 50, 50, 100;
+}
+
+[data-theme=true] {
+    --background-start-rgb: 0, 0, 0;
+    /* dark color */
+    --background-end-rgb: 100, 100, 255;
+    /* dark color */
+    --background-hover-rgb: 115, 115, 200;
+}
+
+nav {
+    position:fixed;
+    display: flex;
+    /* Changed from inline to flex */
+    top: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000;
+    justify-content: space-between;
+    /* To position children at the extreme ends */
+    align-items: center;
+    /* To vertically center items */
+    /* Add padding if needed */
+    background-color: rgb(var(--background-start-rgb));
+    opacity: 0.9;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    /* Pushes the right nav items to the far right */
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        margin: 10px;
+    }
+}
+
+/* Styles for larger screens (768px and above) */
+@media (min-width: 769px) {
+    nav ul {
+        margin: 10px;
+    }
+}
+
+
+.nav-headings{
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    font-size: 1.05em;
+    background-color: rgb(var(--background-hover-rgb));
+    opacity: 0.7;
+    padding-left: 1.1em;
+    border-radius: 2px;
+}
+
+body {
+    margin: 0;
+    /* Equal to navbar height */
+}
+
+section {
+    padding: 20px 20px 20px 20px;
+    scroll-margin-top: 60px;
+    /* Adjust as needed */
+}
+
+html {
+    width: 100%;
+    scroll-behavior: smooth;
+}

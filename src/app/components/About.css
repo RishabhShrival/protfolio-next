@@ -1,0 +1,24 @@
+/* components/HorizontalScroll.css */
+.horizontal-scroll-container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.horizontal-scroll-content {
+    display: inline-flex;
+}
+
+.item {
+    min-width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    white-space: normal;
+    /* Prevent text overflow within items */
+}

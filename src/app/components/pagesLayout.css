@@ -1,0 +1,38 @@
+
+[data-theme=false]{
+    --background-start-rgb: 80, 80, 255;
+    /* light color */
+    --background-end-rgb: 200, 200, 200;
+}
+
+[data-theme=true]{
+    --background-start-rgb: 0, 0, 0;
+    /* dark color */
+    --background-end-rgb: 100, 100, 255;
+    /* dark color */
+}
+
+#home,
+#about,
+#projects {
+    height: 100vh;
+    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    background-attachment: fixed;
+    transition: background 0.5s ease;
+}
+
+#contact {
+    height: 40vh;
+    background: rgb(var(--background-start-rgb));
+    background-attachment: scroll;
+    transition: background 0.5s ease;
+}
+
+#title{
+    font-size: large;
+}
+
+body {
+    transition: background 0.5s ease;
+    /* Ensure smooth transition for body background too */
+}
