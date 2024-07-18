@@ -1,4 +1,5 @@
 import "./pagesLayout.css";
+import "../globals.css";
 const Projects = () => {
   return (
     <section id="projects">

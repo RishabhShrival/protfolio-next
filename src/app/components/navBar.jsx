@@ -23,10 +23,10 @@ const NavBar = () => {
         </div></li>
       </ul>
       <ul className="nav-right">
-        <li><a className="nav-headings" href="#home">Home</a></li>
-        <li><a className="nav-headings" href="#about">About</a></li>
-        <li><a className="nav-headings" href="#projects">Projects</a></li>
-        <li><a className="nav-headings" href="#contact">Contact</a></li>
+        <li><a className="nav-headings" href="#home"><h1 className="heading1">Home</h1></a></li>
+        <li><a className="nav-headings" href="#about"><h1 className="heading1">About</h1></a></li>
+        <li><a className="nav-headings" href="#projects"><h1 className="heading1">Projects</h1></a></li>
+        <li><a className="nav-headings" href="#contact"><h1 className="heading1">Contact</h1></a></li>
       </ul>
       
     </nav>

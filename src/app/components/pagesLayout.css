@@ -23,14 +23,12 @@
 
 #contact {
     height: 40vh;
+    padding: 20px;
     background: rgb(var(--background-start-rgb));
     background-attachment: scroll;
     transition: background 0.5s ease;
 }
 
-#title{
-    font-size: large;
-}
 
 body {
     transition: background 0.5s ease;

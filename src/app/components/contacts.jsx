@@ -1,4 +1,6 @@
 import "./pagesLayout.css";
+import "../globals.css";
+
 const Contacts = () => {
   return (
     <section id="contact">

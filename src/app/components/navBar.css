@@ -35,8 +35,7 @@ nav {
     align-items: center;
     /* To vertically center items */
     /* Add padding if needed */
-    background-color: rgb(var(--background-start-rgb));
-    opacity: 0.9;
+    background-color: rgba(var(--background-start-rgb),0.9);
 }
 
 nav ul {
@@ -62,30 +61,27 @@ nav ul {
     /* Pushes the right nav items to the far right */
 }
 
-@media (max-width: 768px) {
-    nav ul {
-        margin: 10px;
-    }
-}
 
-/* Styles for larger screens (768px and above) */
-@media (min-width: 769px) {
-    nav ul {
-        margin: 10px;
-    }
+nav ul li{
+    margin: 0px;
+    padding: 0px;
 }
-
 
 .nav-headings{
-    padding: 20px;
+    display: flex;
+    height: 60px;
+    width: 80px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
 }
 
-nav ul li a:hover {
+
+.nav-headings:hover {
     font-size: 1.05em;
-    background-color: rgb(var(--background-hover-rgb));
-    opacity: 0.7;
-    padding-left: 1.1em;
-    border-radius: 2px;
+    background-color: rgba(var(--background-hover-rgb),0.5);
+    border-radius: 5px;
 }
 
 body {
@@ -94,7 +90,7 @@ body {
 }
 
 section {
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 80px 20px;
     scroll-margin-top: 60px;
     /* Adjust as needed */
 }

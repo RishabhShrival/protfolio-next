@@ -2,19 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Light mode */
-[data-theme=false] {
-  --text-color: #000000;
+:root {
+  --h1-text: rgb(0, 0, 0);
+  /* light color */
+  --h2-text: rgb(19, 19, 19);
+  /* light color */
+  --h3-text: rgb(44, 44, 44);
 }
 
-/* Dark mode */
+[data-theme=false] {
+  --h1-text: rgb(0, 0, 0);
+    /* light color */
+    --h2-text: rgb(40, 40, 40);
+    /* light color */
+    --h3-text: rgb(84, 84, 84);
+}
+
 [data-theme=true] {
-  --text-color: #ffffff;
+  --h1-text: rgb(255, 255, 255);
+  /* dark color */
+  --h2-text: rgb(205, 205, 205);
+  /* dark color */
+  --h3-text: rgb(180, 180, 180);
+}
+
+.heading1{
+  color: var(--h1-text);
+  opacity: 1;
+}
+
+.heading2 {
+  color: var(--h2-text);
+  opacity: 0.95;
+}
+
+.heading3 {
+  color: var(--h3-text);
+  opacity: 0.9;
+}
+.appearing-text{
+  color: var(--h3-text);
+  opacity: 0;
+}
+.card:hover > .appearing-text{
+  display: block;
+  opacity: 0.9;
+  transition: opacity 0.5s ease-in-out;
 }
 
 body {
-  color: var(--text-color);
   overflow: hidden;
+}
+
+#title {
+  font-size: large;
+  color: var(--h1-text);
 }
 
 @layer utilities {
@@ -22,26 +64,4 @@ body {
     text-wrap: balance;
   }
 }
-
-/*
-.scroll-container {
-  width: 100%;
-  height: 100vh;
-  overflow-y: scroll;
-  -ms-overflow-style: none;
-  /* Hide scrollbar in IE and Edge
-  scrollbar-width: none;
-  /* Hide scrollbar in Firefox
-  scroll-behavior: smooth;
-}
-
-.scroll-container::-webkit-scrollbar {
-  display: none;
-  /* Hide scrollbar in WebKit-based browsers
-}
-
-.scroll-content {
-  background-color: #f0f0f0;
-  
-} */
 

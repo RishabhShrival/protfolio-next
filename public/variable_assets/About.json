@@ -1,0 +1,52 @@
+{
+    "School_12th":{
+        "logo":"variable_assets/jnv_logo.png",
+        "board":"CBSE",
+        "School":"Jawahar Navodaya Vidhyalay",
+        "location":"Khandwa",
+        "percentage":"93%",
+        "duration":"2020"
+    }
+    ,
+    "College":{
+        "logo":"variable_assets/Indian_Institute_of_Technology_Mandi_Logo.png",
+        "board":"Data Science Engineering",
+        "School":"Indian Institute of Technology",
+        "location":"Mandi",
+        "percentage":"7.74",
+        "duration":"2021-2025"
+    }
+    ,
+    "Exchange":{
+        "logo":"variable_assets/Kyushu_university_logo.png",
+        "board":"Computer Science and Electrical Engineering",
+        "School":"Kyushu University",
+        "location":"Fukuoka, Japan",
+        "percentage":"9.85",
+        "duration":"2023"
+    }
+    ,
+    "iHub":{
+        "board":"Project Internship",
+        "School":"iHub",
+        "location":"IIT Mandi",
+        "salary":"15k",
+        "duration":"december 2022 and august 2024"
+    }
+    ,
+    "BrainWave":{
+        "board":"Remote Internship",
+        "School":"BrainWave Science",
+        "location":"Boston ,Massachusetts USA",
+        "salary":"35k per month",
+        "duration":"jan 2023 - june 2023"
+    }
+    ,
+    "Research_Intern":{
+        "board":"Research Internship",
+        "School":"Under faculty",
+        "location":"IIT Mandi",
+        "salary":"9k",
+        "duration":"june 2024 - july 2024"
+    }
+}

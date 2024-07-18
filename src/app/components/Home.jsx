@@ -1,5 +1,6 @@
 import React from 'react';
 import "./pagesLayout.css";
+import "../globals.css";
 import "./Home.css"
 
 const Home = () => {

@@ -1,24 +1,67 @@
-/* components/HorizontalScroll.css */
-.horizontal-scroll-container {
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    white-space: nowrap;
-}
 
-.horizontal-scroll-content {
-    display: inline-flex;
-}
-
-.item {
-    min-width: 200px;
-    height: 150px;
-    background-color: lightgray;
-    margin: 10px;
+.mainframe{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    white-space: normal;
-    /* Prevent text overflow within items */
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(56, 56, 169, 0.2);
+    border-radius: 20px;
 }
+.row{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* components/Card.css */
+.card {
+    position: relative;
+    /* Ensure the card can position its children absolutely */
+    display: flex;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    overflow: hidden;
+    /* Hide anything outside the border radius */
+    background-color: rgba(50, 50, 100, 0.2);
+    /* Background color for fallback */
+    flex:1;
+    flex-grow: 1;
+    flex-direction: column;
+    background-size: 100% 100%;
+    background-color: rgba(44, 44, 139, 0.2);
+    transition: flex-grow 0.5s ease, margin 0.5s ease;
+}
+.cardLogo{
+    position: absolute;
+    /* Position the image absolutely */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    padding: 20px;
+    /* Ensure the image covers the element without stretching */
+    opacity: 0.2;
+    /* Make the image slightly opaque */
+    z-index: 0;
+    /* Place the image behind the content */;
+}
+
+.cardContent{
+    position: relative;
+    z-index: 1;
+}
+
+.card:hover {
+    flex-grow: 1.1;
+    margin: 0px;
+}
+
+.card:hover > .cardLogo{
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
