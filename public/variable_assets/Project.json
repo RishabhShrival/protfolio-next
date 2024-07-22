@@ -3,76 +3,89 @@
         "Name":"Machine Learning Projects"
         },
         {
-            "Name":"project1",
-            "Description":"bla bla",
+            "Name":"Digital Nose",
+            "Description":"Early detection of heart problems and Blood gloucose level using breath sample",
             "link":""
         },
         {
-            "Name":"project2",
-            "Description":"bla bla bla bla",
+            "Name":"Weather Prediction",
+            "Description":"Weather Prediction using image",
             "link":""
         },
         {
-            "Name":"project3",
-            "Description":"bla bla bla bla",
+            "Name":"Sudoku Solver",
+            "Description":"Sudoku Solver using image",
             "link":""
         }
     ],
 
     "React":[{
-        "Name":"React"
+        "Name":"Web and App development"
         },
         {
-            "Name":"project1",
-            "Description":"bla bla",
+            "Name":"CheackList",
+            "Description":"Reminder app using React-Native with firebase authentictation and storage",
             "link":""
         },
         {
-            "Name":"project2",
-            "Description":"bla bla bla bla",
+            "Name":"Portfolio",
+            "Description":"Portfolio website using NodeJs",
             "link":""
-        },
-        {
-            "Name":"project3",
-            "Description":"bla bla bla bla",
-            "link":""
-        }],
+        }
+        ],
 
     "Unity":[{
-        "Name":"Unity"
+        "Name":"Unity game development"
         },
         {
-            "Name":"project1",
-            "Description":"bla bla",
+            "Name":"Souls and Beyonds",
+            "Description":"2.5D game for android and windows developed by CG2D IIT Mandi and also achived Gold medal in inter IIT 2022",
             "link":""
         },
         {
-            "Name":"project2",
-            "Description":"bla bla bla bla",
+            "Name":"fractal Abys",
+            "Description":"3D first person view game for windows",
             "link":""
         },
         {
-            "Name":"project3",
-            "Description":"bla bla bla bla",
+            "Name":"Strike 42",
+            "Description":"3D first person shooter game and the first group project by CG2D IIT Mandi",
             "link":""
-        }],
+        },
+        {
+            "Name":"My first game",
+            "Description":"2D game for windows and my first solo project with fun sound elements",
+            "link":""
+        },
+        {
+            "Name":"IIT roorkey simulator",
+            "Description":"3D IIT Roorkey simultor game",
+            "link":""
+        }
+    ],
 
     "others":[{
         "Name":"Others"
         },
         {
-            "Name":"project1",
-            "Description":"bla bla",
+            "Name":"WallCLimber bot",
+            "Description":"Wall climeber and wall climber 2.0 bot under Dr. Narendra Dhar IIT Mandi",
             "link":""
         },
         {
-            "Name":"project2",
-            "Description":"bla bla bla bla",
+            "Name":"Tello Drone",
+            "Description":"controlling tello drone using matlab simulink",
             "link":""
         },
         {
-            "Name":"project3",
-            "Description":"bla bla bla bla",
+            "Name":"Blind cap",
+            "Description":"detecting object using sound sensors for blink people",
             "link":""
-        }]
+        },
+        {
+            "Name":"Sanitory pad desinfecting system",
+            "Description":"Automatic machine to disintegrate and disinfect Sanitory pad to decompose easily",
+            "link":""
+        }
+    ]
 }
