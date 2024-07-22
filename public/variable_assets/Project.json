@@ -5,17 +5,22 @@
         {
             "Name":"Digital Nose",
             "Description":"Early detection of heart problems and Blood gloucose level using breath sample",
-            "link":""
+            "link":"https://github.com/RishabhShrival/digital-nose"
         },
         {
             "Name":"Weather Prediction",
             "Description":"Weather Prediction using image",
-            "link":""
+            "link":"https://github.com/RishabhShrival/weatherPrediction"
         },
         {
             "Name":"Sudoku Solver",
             "Description":"Sudoku Solver using image",
-            "link":""
+            "link":"https://github.com/RishabhShrival/Sudoku-Solver"
+        },
+        {
+            "Name":"Mouse Automation",
+            "Description":"Controling mouse using hand gesuture through camera live time",
+            "link":"https://github.com/RishabhShrival/mouse-automation"
         }
     ],
 
@@ -25,12 +30,12 @@
         {
             "Name":"CheackList",
             "Description":"Reminder app using React-Native with firebase authentictation, firebase storage and firebase hosting",
-            "link":""
+            "link":"https://github.com/RishabhShrival/Task-app"
         },
         {
             "Name":"Portfolio",
             "Description":"Portfolio website using NextJs and hosted on Vercel",
-            "link":""
+            "link":"https://github.com/RishabhShrival/protfolio-next"
         }
         ],
 
@@ -40,27 +45,26 @@
         {
             "Name":"Souls and Beyonds",
             "Description":"2.5D game for android and windows developed by CG2D IIT Mandi and also achived Gold medal in inter IIT 2022",
-            "link":""
+            "link":"https://cg2d-iit-mandi.itch.io/souls-and-beyond"
         },
         {
-            "Name":"fractal Abys",
+            "Name":"fractal Abyss",
             "Description":"3D first person view game for windows",
-            "link":""
+            "link":"https://techmeets.itch.io/fractal"
         },
         {
             "Name":"Strike 42",
             "Description":"3D first person shooter game and the first group project by CG2D IIT Mandi",
-            "link":""
+            "link":"https://cg2d-iit-mandi.itch.io/strike-42"
         },
         {
             "Name":"My first game",
             "Description":"2D game for windows and my first solo project with fun sound elements",
-            "link":""
+            "link":"https://rishabh-shrival.itch.io/little-fairy"
         },
         {
             "Name":"IIT roorkey simulator",
-            "Description":"3D IIT Roorkey simultor game",
-            "link":""
+            "Description":"3D IIT Roorkey simultor game"
         }
     ],
 
@@ -69,23 +73,23 @@
         },
         {
             "Name":"WallCLimber bot",
-            "Description":"Wall climeber and wall climber 2.0 bot under Dr. Narendra Dhar IIT Mandi",
-            "link":""
+            "Description":"Wall climeber and wall climber 2.0 bot under Dr. Narendra Dhar IIT Mandi"
+            
         },
         {
             "Name":"Tello Drone",
-            "Description":"controlling tello drone using matlab simulink",
-            "link":""
+            "Description":"controlling tello drone using matlab simulink"
+            
         },
         {
             "Name":"Blind cap",
-            "Description":"detecting object using sound sensors for blink people",
-            "link":""
+            "Description":"detecting object using sound sensors for blink people"
+            
         },
         {
             "Name":"Sanitory pad desinfecting system",
-            "Description":"Automatic machine to disintegrate and disinfect Sanitory pad to decompose easily",
-            "link":""
+            "Description":"Automatic machine to disintegrate and disinfect Sanitory pad to decompose easily"
+            
         }
     ]
 }
