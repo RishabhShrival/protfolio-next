@@ -1,0 +1,23 @@
+.contactBlock{
+    display: flex;
+    background-color: rgba(100,100,255,0.2);
+    border-radius: 20px;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.contactBlock a{
+    padding: 10px;
+    display: flex;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.contactBlock a:hover{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}

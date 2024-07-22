@@ -48,6 +48,7 @@
     /* Make the image slightly opaque */
     z-index: 0;
     /* Place the image behind the content */;
+    transition: opacity 0.5s ease;
 }
 
 .cardContent{
@@ -61,7 +62,7 @@
 }
 
 .card:hover > .cardLogo{
-    opacity: 0.3;
+    opacity: 0.4;
     transition: opacity 0.5s ease;
 }
 

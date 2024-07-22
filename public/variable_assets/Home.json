@@ -1,3 +1,17 @@
 {
-    "Name": "Rishabh Shrival"
+    "Name": "Rishabh Shrival",
+    "Content":"I'm a 4th-year B.Tech student passionate about Software Development, Machine Learning, and Game Development. With a strong foundation in Data Structures and Algorithms (DSA), Machine Learning, React, and Unity, I am committed to leveraging my skills to create innovative and impactful solutions.",
+    "Languages":{"C++":"Data structures and Algorithms",
+                "Python":"Machine Learning",
+                "Js":"Web Applications",
+                "C#":"Game Development",
+                "Fortran":"High Performance Computing"},
+    
+    "Skills":{"DSA":"https://leetcode.com/u/Rishabh_Shrival/",
+            "React":"https://react.dev/",
+            "TensorFlow":"https://www.tensorflow.org/",
+            "Unity":"https://unity.com/",
+            "AutoCad":"https://help.autodesk.com/view/fusion360/ENU/courses/AP-GET-STARTED-OVERVIEW"
+            },
+    "resume":""
 }

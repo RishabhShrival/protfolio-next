@@ -13,7 +13,7 @@
         "board":"Data Science Engineering",
         "School":"Indian Institute of Technology",
         "location":"Mandi",
-        "percentage":"7.74",
+        "percentage":"7.74 CGPA",
         "duration":"2021-2025"
     }
     ,
@@ -22,11 +22,12 @@
         "board":"Computer Science and Electrical Engineering",
         "School":"Kyushu University",
         "location":"Fukuoka, Japan",
-        "percentage":"9.85",
+        "percentage":"9.85 SGPA",
         "duration":"2023"
     }
     ,
     "iHub":{
+        "logo":"variable_assets/iHub-logo.png",
         "board":"Project Internship",
         "School":"iHub",
         "location":"IIT Mandi",
@@ -35,6 +36,7 @@
     }
     ,
     "BrainWave":{
+        "logo":"variable_assets/brainwave-science-logo.png",
         "board":"Remote Internship",
         "School":"BrainWave Science",
         "location":"Boston ,Massachusetts USA",
@@ -43,6 +45,7 @@
     }
     ,
     "Research_Intern":{
+        "logo":"variable_assets/research-inter-logo.png",
         "board":"Research Internship",
         "School":"Under faculty",
         "location":"IIT Mandi",

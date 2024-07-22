@@ -5,17 +5,17 @@
 :root {
   --h1-text: rgb(0, 0, 0);
   /* light color */
-  --h2-text: rgb(19, 19, 19);
+  --h2-text: rgb(5, 5, 5);
   /* light color */
-  --h3-text: rgb(44, 44, 44);
+  --h3-text: rgb(35, 35, 35);
 }
 
 [data-theme=false] {
   --h1-text: rgb(0, 0, 0);
     /* light color */
-    --h2-text: rgb(40, 40, 40);
+    --h2-text: rgb(5, 5, 5);
     /* light color */
-    --h3-text: rgb(84, 84, 84);
+    --h3-text: rgb(35, 35, 35);
 }
 
 [data-theme=true] {
@@ -27,26 +27,31 @@
 }
 
 .heading1{
+  padding: 5px;
+  font-size: large;
   color: var(--h1-text);
   opacity: 1;
 }
 
 .heading2 {
+  padding: 3px;
   color: var(--h2-text);
   opacity: 0.95;
 }
 
 .heading3 {
+  padding: 3px;
   color: var(--h3-text);
-  opacity: 0.9;
+  opacity: 0.85;
 }
 .appearing-text{
   color: var(--h3-text);
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
-.card:hover > .appearing-text{
-  display: block;
-  opacity: 0.9;
+
+.card:hover > .cardContent > .appearing-text{
+  opacity: 0.85;
   transition: opacity 0.5s ease-in-out;
 }
 
@@ -57,6 +62,12 @@ body {
 #title {
   font-size: large;
   color: var(--h1-text);
+}
+
+.icons{
+  margin: 5px;
+  color: var(--h1-text);
+  display: block;
 }
 
 @layer utilities {
