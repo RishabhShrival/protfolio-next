@@ -78,7 +78,8 @@
         },
         {
             "Name":"fortran Game",
-            "Description":"Four in a row game using fortan with Computer player integrated with Backtracking Algorithm."
+            "Description":"Four in a row game using fortan with Computer player integrated with Backtracking Algorithm.",
+            "Link":"https://github.com/RishabhShrival/Fortran-Game"
         },
         {
             "Name":"Tello Drone",
