@@ -19,12 +19,13 @@ const ProjectCard = ({ data }) => {
     // Run the state update after 0.5 seconds
     setTimeout(() => {
       // Reset the transitioning state after animation completes
-      setTimeout(() => {
-        setTransitioning(false);
-      }, 700); // Duration of the animation
+      
+      setTransitioning(false);
+       // Duration of the animation
       const [first, ...rest] = cardList;
       setList([...rest, first]);
-    }, 800); // Delay before handling the click
+    }, 600); // Delay before handling the click
+    
   };
 
   const getCardStyle = (index) => ({
@@ -35,7 +36,7 @@ const ProjectCard = ({ data }) => {
     background: `radial-gradient(rgb(150,150,${140+100*(cardList.length - index) / cardList.length}),rgb(70,70,${90+100*(cardList.length - index) / cardList.length}))`,
     zIndex: cardList.length - index,
     transform: `translateY(${index/cardList.length * 10}px) rotate(${index/cardList.length * 4}deg)`,
-    borderRadius: '5px',
+    borderRadius: '10px',
     border: '2px solid black',
     transition: 'transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), background-color 0.6s ease-in-out',
     willChange: 'transform, background-color',
