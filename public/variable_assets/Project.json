@@ -77,6 +77,10 @@
             
         },
         {
+            "Name":"fortran Game",
+            "Description":"Four in a row game using fortan with Computer player integrated with Backtracking Algorithm."
+        },
+        {
             "Name":"Tello Drone",
             "Description":"controlling tello drone using matlab simulink"
             
