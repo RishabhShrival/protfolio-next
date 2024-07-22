@@ -24,12 +24,12 @@
         },
         {
             "Name":"CheackList",
-            "Description":"Reminder app using React-Native with firebase authentictation and storage",
+            "Description":"Reminder app using React-Native with firebase authentictation, firebase storage and firebase hosting",
             "link":""
         },
         {
             "Name":"Portfolio",
-            "Description":"Portfolio website using NodeJs",
+            "Description":"Portfolio website using NextJs and hosted on Vercel",
             "link":""
         }
         ],
