@@ -22,77 +22,11 @@
     --background-hover-rgb: 115, 115, 200;
 }
 
-nav {
-    position:fixed;
-    display: flex;
-    /* Changed from inline to flex */
-    top: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 1000;
-    justify-content: space-between;
-    /* To position children at the extreme ends */
-    align-items: center;
-    /* To vertically center items */
-    background-color: rgba(var(--background-start-rgb),0.9);
-}
-
-nav ul {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-left: auto;
-    /* Pushes the right nav items to the far right */
-}
-
-
-nav ul li{
-    margin: 0px;
-    padding: 0px;
-}
-
-.nav-headings{
-    display: flex;
-    height: 60px;
-    width: 80px;
-    margin: 10px;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 10px 0px 10px;
-}
-
-
-.nav-headings:hover {
-    font-size: 1.05em;
-    background-color: rgba(var(--background-hover-rgb),0.5);
-    border-radius: 5px;
-}
 
 body {
     margin: 0;
-    /* Equal to navbar height */
 }
 
-section {
-    padding: 20px 20px 80px 20px;
-    scroll-margin-top: 60px;
-    /* Adjust as needed */
-}
 
 html {
     width: 100%;

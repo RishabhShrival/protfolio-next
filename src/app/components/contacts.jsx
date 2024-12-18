@@ -10,7 +10,7 @@ const Contacts = () => {
   return (
     <section id="contact"> 
       <h1 id="title">Contact</h1>
-      <div className="contactBlock">
+      <div className="contactBlock md:flex-row md:mx-40">
         <a href="https://github.com/RishabhShrival" target="_blank">
           <GitHubIcon className="icons"/>
           <h1 className="heading1" >RishabhShrival</h1>

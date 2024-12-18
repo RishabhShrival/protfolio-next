@@ -1,7 +1,7 @@
 
 .mainframe{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 10px;
     height: 100%;
     width: 100%;
@@ -10,7 +10,8 @@
 }
 .row{
     display: flex;
-    height: 50%;
+    flex-direction: column;
+    height: 100%;
     width: 100%;
     justify-content: space-around;
 }

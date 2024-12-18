@@ -50,10 +50,10 @@ const ProjectCard = ({ data }) => {
             key={index}
             style={getCardStyle(index)}
             onClick={handleClick}
-            className={`Projectcard ${index === 0 && transitioning ? 'transitioning' : ''}`}
+            className={`Projectcard  ${index === 0 && transitioning ? 'transitioning' : ''}`}
             >
             <h1 className="heading1">{projectName.Name}</h1>
-            <p className="heading3">{projectName.Description}</p>
+            <p className="heading3 md:text-base">{projectName.Description}</p>
             {
             (projectName.link!=null) ? (<a href={projectName.link} target='_blank'>Link</a>) :
             null}

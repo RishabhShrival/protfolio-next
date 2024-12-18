@@ -27,25 +27,28 @@
 }
 
 .heading1{
-  padding: 5px;
-  font-size: large;
+  padding: 3px;
+  font-size: medium;
   color: var(--h1-text);
   opacity: 1;
 }
 
 .heading2 {
   padding: 3px;
+  font-size: small;
   color: var(--h2-text);
   opacity: 0.95;
 }
 
 .heading3 {
   padding: 3px;
+  font-size: small;
   color: var(--h3-text);
   opacity: 0.85;
 }
 .appearing-text{
   color: var(--h3-text);
+  font-size: small;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
@@ -60,6 +63,7 @@ body {
 }
 
 #title {
+  padding-top: 1.5rem;
   font-size: large;
   color: var(--h1-text);
 }
@@ -69,6 +73,7 @@ body {
   color: var(--h1-text);
   display: block;
 }
+
 
 @layer utilities {
   .text-balance {

@@ -7,8 +7,8 @@ const Projects = () => {
   const data = require("../../../public/variable_assets/Project.json");
   return (
     <section id="projects">
-      <h1 id="title">Projects</h1>
-      <div className="Projectmainframe">
+      <h1 className="px-10" id="title">Projects</h1>
+      <div className="Projectmainframe flex-col md:flex-row">
       {Object.entries(data).map(([key,value],index) => (
         <ProjectCard key={index} data={value}/>
       ))
