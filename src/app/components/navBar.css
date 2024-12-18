@@ -22,9 +22,7 @@
     --background-hover-rgb: 115, 115, 200;
 }
 
-.nav-block {
-    width: auto;
-    height: auto;
+.nav {
     background-color: rgba(201, 187, 245, 0.3);
 }
 

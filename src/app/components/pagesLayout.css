@@ -1,14 +1,14 @@
 
 [data-theme=false]{
-    --background-start-rgb: 80, 80, 200;
+    --background-start-rgb: 62, 88, 121;
     /* light color */
-    --background-end-rgb: 200, 200, 200;
+    --background-end-rgb: 245, 239, 231;
 }
 
 [data-theme=true]{
     --background-start-rgb: 0, 0, 0;
     /* dark color */
-    --background-end-rgb: 100, 100, 255;
+    --background-end-rgb: 62, 88, 121;
     /* dark color */
 }
 
@@ -17,7 +17,7 @@
 #projects {
     height: 100vh;
     width: 100vw;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 40px;
     background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
     background-attachment: fixed;
