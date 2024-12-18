@@ -30,7 +30,7 @@ const Home = () => {
           <div className='panal'>
             {Object.entries(data.Skills).map(([skill, description]) => (
                 <div key={skill} className="language-block md:m-1 md:px-10" alt={description}>
-                    <a className="text-xs" href={description} target='_blank'>{skill}</a>
+                    <a className="text-xs md:text-base" href={description} target='_blank'>{skill}</a>
                 </div>
             ))}
          </div>

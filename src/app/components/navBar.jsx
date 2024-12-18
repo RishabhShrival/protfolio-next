@@ -13,8 +13,8 @@ const NavBar = () => {
     console.log(theme);
   }
   return (
-    <nav className="z-10 fixed w-screen bg-indigo-800">
-      <div className="flex justify-between items-center">
+    <nav className="z-10 fixed w-screen h-1/12 bg-indigo-800">
+      <div className="flex p-2 justify-between items-center">
         <ul className="text-left w-auto">
           <li><div className="toggle-switch">
             <label className="switch-label">
